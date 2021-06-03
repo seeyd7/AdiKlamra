@@ -223,7 +223,7 @@ header {
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
-  padding: 5% 10%;
+  padding: 5% 10% 5% 10%;
 }
 #skill p {
   font-weight: bold;
@@ -249,6 +249,44 @@ header {
   box-shadow: 140px 0px 0px 0px #a4dddb;
 }
 /* Skills */
+/* Portfolio info */
+#portfolio-info {
+  height: 30vh;
+  background-color: #10c9c3;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.info-box {
+  width: 25%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info-box p {
+  margin-top: 3.5%;
+  color: white;
+  line-height: 7px;
+}
+.info-inside {
+  margin-left: 5%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+@media screen and (max-width: 965px) {
+  #portfolio-info {
+    flex-direction: column;
+    height: 50vh;
+  }
+  .info-box {
+    width: 100%;
+  }
+}
+/* Portfolio info */
 footer {
   display: flex;
   justify-content: center;
@@ -283,10 +321,6 @@ i {
   color: white;
   transition: 0.3s linear;
   cursor: pointer;
-}
-i:hover {
-  color: #10c9c3;
-  transform: scale(1.1);
 }
 @media screen and (max-width: 500px) {
   .contact-form .btn {
