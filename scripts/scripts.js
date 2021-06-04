@@ -16,4 +16,16 @@ menuToggler.addEventListener("click", () => {
 	}
 });
 
+document.addEventListener("DOMContentLoaded", function() { startplayer(); }, false);
+var player;
 
+function startplayer() 
+{
+ player = document.getElementById('video_player');
+ player.controls = false;
+}
+function play_vid()
+{
+ player.play();
+ document.querySelector(".playbutton").style.opacity = "0";
+}

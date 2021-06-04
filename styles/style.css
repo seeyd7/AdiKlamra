@@ -409,20 +409,10 @@ header {
 .load-more:hover {
   background: #10c9c3;
 }
-@media screen and (max-width: 1200px) {
-  .product, .black-square {
-    width: 50%;
-  }
-}
-@media screen and (max-width: 600px) {
-  .product, .black-square {
-    width: 100%;
-  }
-}
 /* Products */
 /* Work process */
 #work {
-  margin-top: 10%;
+  margin-top: 5%;
   height: auto;
   display: flex;
   justify-content: center;
@@ -433,6 +423,81 @@ header {
 #work video {
   height: auto;
   width: 80%;
-  
 }
+#work h1{
+  margin-bottom: 2%;
+}
+#work p {
+  margin-bottom: 2%;
+  color: grey;
+}
+#player_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#player_controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.playbutton {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  background: #10c9c3;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.2s;
+}
+/* Capabilities */
+#capabilities {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.capa-container {
+  height: 30vh;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  line-height: 25px;
+  transition: 0.25s ease-in-out;
+}
+.capa-container i {
+  margin-bottom: 2vh;
+}
+.capa-container:hover {
+  background: #10c9c3;
+}
+@media screen and (max-width: 1200px) {
+  .product, .black-square {
+    width: 50%;
+  }
+  .capa-container {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .product, .black-square {
+    width: 100%;
+  }
+  .capa-container{
+    width: 100%;
+  }
+}
+/* Capabilities */
 /* Work process */

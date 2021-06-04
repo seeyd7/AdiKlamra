@@ -14,11 +14,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Abel&family=Italianno&family=Montserrat&family=Oswald&display=swap" rel="stylesheet">
     <!-- Styles -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="styles/bootstrap.min.css">
     <link rel="stylesheet" href="styles/normalize.css">
     <!-- MyStyles -->
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/grid.css">
 </head>
 <body>
     <!-- Menu -->
@@ -146,20 +144,65 @@
     <section id="work">
       <h1>Our Work Process</h1>
       <p>Was years it seasons waas there form he in in them together over that.<br>third sixth gathered female creeping bearing behold years.</p>
-      <video controls>
-        <source src="video/video.mp4" type="video/mp4">
-      </video>
+        <div id='player_wrapper'>
+         <video id='video_player'>
+          <source src='video/video.mp4' type='video/mp4'>
+         </video>
+         <div id='player_controls'>
+          <button class="playbutton" style="position: absolute;" onclick="play_vid()" id="play_button">
+            <i class="fas fa-play"></i>
+          </button>
+         </div>
+        </div>
     </section>
     <!-- Work process -->
+    <!-- Capabilities -->
+    <section id="capabilities">
+      <div class="capa-container">
+        <i class="far fa-gem fa-3x"></i>
+        <p style="font-weight: bold;">UI / UX DESIGN</p>
+        <p>Be set fourth lnd god darkness<br>make it wherein own</p>
+      </div>
+      <div class="capa-container">
+        <i class="far fa-bow-arrow fa-3x"></i>
+        <p style="font-weight: bold;">UI / UX DESIGN</p>
+        <p>Be set fourth lnd god darkness<br>make it wherein own</p>
+      </div>
+      <div class="capa-container">
+        <i class="far fa-mobile-android fa-3x"></i>
+        <p style="font-weight: bold;">UI / UX DESIGN</p>
+        <p>Be set fourth lnd god darkness<br>make it wherein own</p>
+      </div>
+      <div class="capa-container">
+        <i class="far fa-gamepad fa-3x"></i>
+        <p style="font-weight: bold;">UI / UX DESIGN</p>
+        <p>Be set fourth lnd god darkness<br>make it wherein own</p>
+      </div>
+      <div class="capa-container">
+        <i class="far fa-plane fa-3x"></i>
+        <p style="font-weight: bold;">UI / UX DESIGN</p>
+        <p>Be set fourth lnd god darkness<br>make it wherein own</p>
+      </div>
+      <div class="capa-container">
+        <i class="far fa-star fa-3x"></i>
+        <p style="font-weight: bold;">UI / UX DESIGN</p>
+        <p>Be set fourth lnd god darkness<br>make it wherein own</p>
+      </div>
+      <div class="capa-container">
+        <i class="far fa-wand-magic fa-3x"></i>
+        <p style="font-weight: bold;">UI / UX DESIGN</p>
+        <p>Be set fourth lnd god darkness<br>make it wherein own</p>
+      </div>
+      <div class="capa-container">
+        <i class="far fa-fill fa-3x"></i>
+        <p style="font-weight: bold;">UI / UX DESIGN</p>
+        <p>Be set fourth lnd god darkness<br>make it wherein own</p>
+      </div>
+    </section>
+    <!-- Capabilities -->
     <!-- Stopka -->
-    <!-- Main -->
-    <!-- GoTop -->
-    <button id="go2Top" class="fas fa-arrow-up goTop" style="cursor: pointer;"></button>
-    <!-- GoTop -->
     <!-- Menu -->
     <!-- Scripts -->
-    <script src="scripts/bootstrap.min.js"></script>
-    <script src="scripts/jquery.js"></script>
     <script src="scripts/popper.js"></script>
     <!-- MyScripts -->
     <script src="scripts/scripts.js"></script>
