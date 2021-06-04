@@ -347,6 +347,67 @@ header {
   }
 }
 /* Portfolio info */
+/* Products */
+#products {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+.product {
+  height: 30vh;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.product img {
+  height: 30vh;
+  width: 100%;
+  transition: 0.25s ease-in;
+}
+.product:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+.black-square {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 30vh;
+  width: 25%;
+  transition: 0.25s ease-in;
+  opacity: 0;
+}
+.product:hover > .black-square {
+  opacity: 1;
+}
+.product i {
+  transition: 0.25s;
+  position: absolute;
+  color: white;
+  opacity: 0;
+}
+.product:hover > i {
+  opacity: 1;
+}
+.load-more {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.load-more:hover {
+  background: #10c9c3;
+}
+/* Products */
 footer {
   display: flex;
   justify-content: center;
