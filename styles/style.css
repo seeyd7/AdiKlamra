@@ -700,6 +700,7 @@ footer {
 @media screen and (max-width: 500px) {
   .footer-info {
     width: 50%;
+    height: 15vh;
   }
   .footer-info h1 {
     font-size: 20px;
@@ -709,6 +710,7 @@ footer {
   }
   .footer-contact {
     width: 50%;
+    height: 15vh;
   }
   .shortlinks-1, .shortlinks-2 {
     width: 33.3%;
