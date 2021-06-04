@@ -310,6 +310,7 @@ header {
   align-items: center;
 }
 .info-box {
+  color: white;
   width: 25%;
   height: 30vh;
   display: flex;
@@ -349,7 +350,7 @@ header {
 /* Portfolio info */
 /* Products */
 #products {
-  height: 60vh;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -421,7 +422,8 @@ header {
 /* Products */
 /* Work process */
 #work {
-  min-height: 100vh;
+  margin-top: 10%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -431,5 +433,6 @@ header {
 #work video {
   height: auto;
   width: 80%;
+  
 }
 /* Work process */
