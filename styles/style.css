@@ -500,4 +500,143 @@ header {
   }
 }
 /* Capabilities */
+/* Reviews */
+.slideshow-container {
+  position: relative;
+  background: #10c9c3;
+}
+.mySlides {
+  display: none;
+  height: 40vh;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #10c9c3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  transition: 0.15s;
+}
+.active-slide, .dot:hover {
+  background-color: white;
+  height: 17px;
+  width: 17px;
+}
+q {
+  font-size: 20px;
+  color: white;
+}
+.author {
+  color: white;
+}
+/* Reviews */
+/* Sponsors */
+#sponsors {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+.sponsor-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 25vh;
+}
+.sponsor-container img {
+  width: 100%;
+  height: 10vh;
+  object-fit: contain;
+  filter: grayscale(100%);
+}
+@media screen and (max-width: 800px) {
+  .sponsor-container {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .sponsor-container {
+    width: 100%;
+  }
+}
+/* Sponsors */
+/* Contact */
+#contact {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  height: 100%;
+  text-align: center;
+}
+#contact p {
+  margin-bottom: 4vh;
+  color: grey;
+}
+.contact-form{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 92%;
+}
+.contact-form input, .contact-form textarea{
+  border: 1px solid grey;
+  width: 100%;
+  height: 50px;
+  margin: 10px 0;
+  background-color: #fff;
+  outline: none;
+  padding: 20px;
+  border-radius: 4px;
+  color: #000;
+}
+.contact-form .btn{
+  border: none;
+  width: 180px;
+  background-color: #10c9c3;
+  color: #fff;
+  font-size: 13px;
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
+  cursor: pointer;
+  transition: .3s linear;
+}
+.contact-form .btn:hover{
+  background-color:#62ebe6;
+  color: #fff;
+}
+.nameZone, .emailZone{
+  max-width: calc(50% - 10px);
+}
+.messageZone{
+  min-height: 200px;
+  resize: vertical;
+}
+/* Contact */
 /* Work process */
